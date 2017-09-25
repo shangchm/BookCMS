@@ -5,8 +5,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.Set;
 
-import javax.jws.WebParam.Mode;
-
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 
@@ -14,7 +12,6 @@ import com.njit.lib.base.BaseAction;
 import com.njit.lib.domain.Message;
 import com.njit.lib.domain.Remark;
 import com.opensymphony.xwork2.ActionContext;
-import com.sun.org.apache.commons.beanutils.converters.LongConverter;
 @Controller
 @Scope("prototype")
 public class RemarkAction extends BaseAction<Remark> {
